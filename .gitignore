@@ -1,0 +1,6 @@
+.DS_Store
+
+wasm/opus/opus-1.2.1
+wasm/*/*.js
+wasm/*/*.o
+wasm/*/*.wasm

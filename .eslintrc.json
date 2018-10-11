@@ -1,0 +1,78 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {
+		"arrow-body-style": ["error"],
+		"arrow-parens": ["error"],
+		"arrow-spacing": ["error"],
+		"brace-style": ["error"],
+		"comma-dangle": ["error", "always-multiline"],
+		"comma-spacing": ["error"],
+		"consistent-return": ["error"],
+		"dot-location": ["error"],
+		"dot-notation": ["error"],
+		"eol-last": ["error"],
+		"eqeqeq": ["error"],
+		"func-call-spacing": ["error"],
+		"indent": ["error", "tab", {
+			"SwitchCase": 1
+		}],
+		"init-declarations": ["error"],
+		"keyword-spacing": ["error"],
+		"lines-between-class-members": ["error"],
+		"new-cap": ["error"],
+		"no-console": ["warn"],
+		"no-dupe-class-members": ["error"],
+		"no-duplicate-imports": ["error"],
+		"no-empty-function": ["error"],
+		"no-extend-native": ["error"],
+		"no-extra-bind": ["error"],
+		"no-extra-label": ["error"],
+		"no-extra-parens": ["warn"],
+		"no-invalid-this": ["error"],
+		"no-lone-blocks": ["error"],
+		"no-restricted-globals": ["error"],
+		"no-shadow": ["error"],
+		"no-shadow-restricted-names": ["error"],
+		"no-template-curly-in-string": ["error"],
+		"no-trailing-spaces": ["error"],
+		"no-undef": ["error"],
+		"no-undefined": ["error"],
+		"no-unused-expressions": ["error"],
+		"no-use-before-define": ["error"],
+		"no-useless-rename": ["error"],
+		"no-var": ["error"],
+		"no-whitespace-before-property": ["error"],
+		"object-curly-spacing": ["error"],
+		"object-shorthand": ["error"],
+		"prefer-arrow-callback": ["error"],
+		"prefer-const": ["error"],
+		"prefer-spread": ["error"],
+		"prefer-template": ["error"],
+		"quote-props": ["error", "as-needed"],
+		"quotes": ["error", "single", {
+			"allowTemplateLiterals": true
+		}],
+		"require-await": ["error"],
+		"semi": ["error", "always"],
+		"semi-spacing": ["error"],
+		"sort-imports": ["error"],
+		"space-before-blocks": ["error"],
+		"space-before-function-paren": ["error", {
+			"anonymous": "always",
+			"asyncArrow": "always",
+			"named": "never"
+		}],
+		"space-in-parens": ["error"],
+		"space-infix-ops": ["error"],
+		"template-curly-spacing": ["error"],
+		"yoda": ["error"]
+	}
+}
